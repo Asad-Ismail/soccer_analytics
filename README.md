@@ -1,5 +1,5 @@
 # Soccer Analytics
-The Repo below is based on excellent OD work  https://github.com/ultralytics/yolov5
+The Repo below is based on excellent OD work https://github.com/ultralytics/yolov5 see the repo for requiements
 ### Features
 1) Detect number of players of each team in a frame
 2) Detect soccer ball in the frame
