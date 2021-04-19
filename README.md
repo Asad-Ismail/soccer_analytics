@@ -33,6 +33,6 @@ Players detection for each team can be done in two major ways
 
 3) The network used is yolov5 using COCO pretrained weights
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/22799415/114357001-80d53c00-9b71-11eb-9ad1-2bdbc69f97d3.gif" alt="pruning",img width="550" />
+    <img src="https://user-images.githubusercontent.com/22799415/115258599-67b02a80-a131-11eb-84b3-9bfff6d69845.gif" alt="pruning",img width="550" />
   </p>
     <p align="center">
