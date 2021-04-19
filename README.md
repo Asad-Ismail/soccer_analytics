@@ -38,7 +38,7 @@ Players detection for each team can be done in two major ways
 
 3) The network used is yolov5 using COCO pretrained weights and trained on annotated dataset 
 
-4) Use 
+4) Use soccer.ipynb to training yolov5 netowrk 
 
   <p align="center">
     <img src="https://user-images.githubusercontent.com/22799415/114357001-80d53c00-9b71-11eb-9ad1-2bdbc69f97d3.gif" alt="pruning",img width="550" />
