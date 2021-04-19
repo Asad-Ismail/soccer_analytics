@@ -41,7 +41,7 @@ Replace wights and class weights by your weights or weights provided
 
 3) The network used is yolov5 using COCO pretrained weights and trained on annotated dataset 
 
-4) Use soccer.ipynb to training yolov5 netowrk 
+4) Use soccer.ipynb to train yolov5 netowrk 
 
 5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --use-class=False --source=sample.mp4 --device=0"
 Replace wights by your weights or weights provided
