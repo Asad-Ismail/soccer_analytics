@@ -20,6 +20,7 @@ Players detection for each team can be done in two major ways
 4) Run train_classifier.py to train the classification network by giving appropriate dataset path
 
 5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --use-class=True --class_weights=clas_weights.pt --source=sample.mp4 --device=0"
+
 Replace wights and class weights by your weights or weights provided
 
 6) The network used is yolov5 using COCO pretrained weights
@@ -44,6 +45,7 @@ Replace wights and class weights by your weights or weights provided
 4) Use soccer.ipynb to train yolov5 netowrk 
 
 5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --use-class=False --source=sample.mp4 --device=0"
+
 Replace wights by your weights or weights provided
 
   <p align="center">
