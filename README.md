@@ -19,9 +19,10 @@ Players detection for each team can be done in two major ways
 
 4) Run train_classifier.py to train the classification network by giving appropriate dataset path
 
-5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --source=sample.mp4 --device=0"
+5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --use-class=True --class_weights=clas_weights.pt --source=sample.mp4 --device=0"
+Replace wights and class weights by your weights or weights provided
 
-5) The network used is yolov5 using COCO pretrained weights
+6) The network used is yolov5 using COCO pretrained weights
   <p align="center">
     <img src="https://user-images.githubusercontent.com/22799415/115258599-67b02a80-a131-11eb-84b3-9bfff6d69845.gif" alt="pruning",img width="550" />
   </p>
@@ -41,6 +42,9 @@ Players detection for each team can be done in two major ways
 3) The network used is yolov5 using COCO pretrained weights and trained on annotated dataset 
 
 4) Use soccer.ipynb to training yolov5 netowrk 
+
+5) Run predictions using "python detect_soccer.py --weights=weights/best.pt --use-class=False --source=sample.mp4 --device=0"
+Replace wights by your weights or weights provided
 
   <p align="center">
     <img src="https://user-images.githubusercontent.com/22799415/114357001-80d53c00-9b71-11eb-9ad1-2bdbc69f97d3.gif" alt="pruning",img width="550" />
