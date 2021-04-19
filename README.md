@@ -21,7 +21,7 @@ Players detection for each team can be done in two major ways
   </p>
     <p align="center">
  
- Average Time taken is  __110ms__ @GTX1080, CPU G4560 @ 3.50GHz without AVX instructions. The tiing includes NMS and argmax operations after detection
+ Average Time taken is  __110ms__ @GTX1080, CPU G4560 @ 3.50GHz without AVX instructions. The timing includes NMS and argmax operations after detection
 
 ### Detect and classify the team players using Object detection network 
 1) Train Deep neural network to directly detect and classify the images in the desired category
@@ -40,5 +40,5 @@ Players detection for each team can be done in two major ways
     <p align="center">
  
  
-Average Time taken is **74.9ms** @GTX1080, CPU G4560 @ 3.50GHz without AVX instructions. The tiing includes NMS and argmax operations after detection
+Average Time taken is **74.9ms** @GTX1080, CPU G4560 @ 3.50GHz without AVX instructions. The timing includes NMS and argmax operations after detection
   
