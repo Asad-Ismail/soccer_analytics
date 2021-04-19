@@ -15,7 +15,11 @@ Players detection for each team can be done in two major ways
   
 2) It is more scalaeble since there are number of publically available persons/pedestrian detection dataset that we can use and then classify each detection as belonging to particular team. Clasificaiton labelling is also more time and cost effective.
 
-3) The network used is yolov5 using COCO pretrained weights
+3) The trained network trained on COCO dataset is used for person detector and ResNet101 is used for further classification.
+
+4) Run train_classifier.py to train the classification network by giving appropriate dataset path
+
+5) The network used is yolov5 using COCO pretrained weights
   <p align="center">
     <img src="https://user-images.githubusercontent.com/22799415/115258599-67b02a80-a131-11eb-84b3-9bfff6d69845.gif" alt="pruning",img width="550" />
   </p>
@@ -30,9 +34,11 @@ Players detection for each team can be done in two major ways
   </p>
     <p align="center">
   
-2) It is more compute optimized due to feature sharing for multiple classes as well as copying data to GPU memory and back to cpu Memory happens only onc
+2) It is more compute optimized due to feature sharing for multiple classes as well as copying data to GPU memory and back to cpu Memory happens only once
 
-3) The network used is yolov5 using COCO pretrained weights
+3) The network used is yolov5 using COCO pretrained weights and trained on annotated dataset 
+
+4) Use 
 
   <p align="center">
     <img src="https://user-images.githubusercontent.com/22799415/114357001-80d53c00-9b71-11eb-9ad1-2bdbc69f97d3.gif" alt="pruning",img width="550" />
