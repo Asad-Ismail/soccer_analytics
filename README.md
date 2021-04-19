@@ -4,7 +4,7 @@ The Repo below is based on excellent OD work  https://github.com/ultralytics/yol
 1) Detect number of players of each team in a frame
 2) Detect soccer ball in the frame
 
-Pretrianed models are avaialbel in https://cutt.ly/UvUjk8o
+Pretrianed models are available in https://cutt.ly/UvUjk8o
 
 Players detection for each team can be done in two major ways
 
